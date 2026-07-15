@@ -1,0 +1,135 @@
+# 📩 Spam Message Detection Using Machine Learning
+
+## 📌 Project Overview
+
+This project is based on **Spam Message Detection** using Machine Learning. The main goal is to classify SMS messages into two categories:
+
+- Spam
+- Ham (Normal Message)
+
+Different Machine Learning algorithms are trained and compared to find which model gives the best performance.
+
+---
+
+## 🎯 Project Objective
+
+The objective of this project is to build a machine learning model that can automatically identify whether a message is spam or not.
+
+---
+
+## 📂 Dataset
+
+The project uses an SMS dataset containing two columns:
+
+- **Message** – SMS text
+- **Label** – Spam or Ham
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Jupyter Notebook
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+## 🤖 Machine Learning Algorithms
+
+The following algorithms are implemented in this project:
+
+- K-Nearest Neighbors (KNN)
+- Support Vector Machine (Linear SVM)
+- Support Vector Machine (RBF SVM)
+- Gaussian Naive Bayes
+
+---
+
+## ⚙️ Project Workflow
+
+1. Import required libraries
+2. Load the dataset
+3. Explore the dataset (EDA)
+4. Clean the data
+5. Handle missing values
+6. Convert text into numerical features using TF-IDF
+7. Split the dataset into training and testing sets
+8. Scale the required features
+9. Train different machine learning models
+10. Make predictions
+11. Evaluate each model
+12. Compare all models
+13. Select the best performing model
+
+---
+
+## 📊 Evaluation Metrics
+
+The models are evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+- Classification Report
+
+---
+
+## 📈 Project Result
+
+After training and testing multiple machine learning models, their performance is compared using different evaluation metrics. The best model is selected based on overall performance and prediction accuracy.
+
+---
+
+## 📁 Project Structure
+
+```
+Spam-Message-Detection/
+│
+├── Project_4.ipynb
+├── spam.csv
+├── README.md
+```
+
+---
+
+## 💡 What I Learned
+
+Through this project, I learned:
+
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- TF-IDF Vectorization
+- Feature Scaling
+- Training Machine Learning models
+- Model Evaluation
+- Model Comparison
+- Selecting the best model
+
+---
+
+## 🚀 Future Improvements
+
+- Use a larger dataset
+- Try Deep Learning models like LSTM
+- Build a web application using Flask or Streamlit
+- Deploy the model online
+
+---
+
+## 👨‍💻 Author
+
+**Akshay**
+
+Learning Machine Learning, Data Science, and Artificial Intelligence by building practical projects.
+
+---
+
+## ⭐ If you like this project
+
+If you found this project helpful, don't forget to give it a ⭐ on GitHub.
